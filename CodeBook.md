@@ -1,10 +1,8 @@
 #Codebook for HAR Dataset
 
 ###Variables:
-* Subject_ID : ID of the subject 
-	values : 1..6
-* Activity_Name : Name of the activity
-	values : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+* Subject_ID : ID of the subjects. Values : 1..6
+* Activity_Name : Name of the activities. Values : WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 * tBodyAcc_mean_X : Mean time domain body acceleration in X dimension
 * tBodyAcc_mean_Y : Mean time domain body acceleration in Y dimension
 * tBodyAcc_mean_Z : Mean time domain body acceleration in Z dimension
