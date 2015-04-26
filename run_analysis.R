@@ -111,7 +111,7 @@ names(narrowset) <- gsub("[-]", "_", names)
 aggregatenarrow <- aggregate(narrowset[, 3:ncol(narrowset)], by=list(Subject_ID = narrowset$Subject_ID, Activity_Name = narrowset$Activity_Name), mean)
 
 #Write the result to a file
-write.csv(aggregatenarrow, "HAR_Dataset_Result.csv")
+write.table(aggregatenarrow, "HAR_Dataset_Result.txt", row.name=FALSE)
                                               
 ##We have completed step 5 now.
 ##-----------------------------
